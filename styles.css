@@ -1,9 +1,11 @@
 .container {
     border: 5px dotted aqua;
-    display: flex;
+    
     flex-direction: column;
     background-color: #38a3a5;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: auto;
 }
 
 .search{
@@ -30,16 +32,41 @@ list-style: none;
         flex: 1 1 100%;}
 }
 .search{
-    order: 1;
+   order: 1;
+   justify-content: center;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 60px;
+   color: #57cc99;
+
 }
 
 body {
     text-align: center;
     background-color: #22577a;
+    width: fit-content;
+    margin: auto;
+   
+    
+}
+
+p {
+    
+    justify-content: center;
+   font-size: larger;
+   padding: 10px;
 }
 
 .img1 {
     align-items: center;
     width: 500px;
+   border: 10px solid #80ed99;
+    margin: 40px;
 
+}
+
+/* .footer { */
+    padding: 10px;
 }
